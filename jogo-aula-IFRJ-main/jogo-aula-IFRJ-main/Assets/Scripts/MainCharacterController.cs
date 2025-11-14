@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
         {
             visual.localScale = new Vector3(4, 4, 4);
         }
-        else if(moveInput < -0.01f)
+        else if (moveInput < -0.01f)
         {
             visual.localScale = new Vector3(-4, 4, 4);
         }
