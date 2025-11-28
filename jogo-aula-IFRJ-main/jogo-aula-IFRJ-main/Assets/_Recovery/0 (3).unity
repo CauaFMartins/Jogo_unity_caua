@@ -614,7 +614,7 @@ MonoBehaviour:
   moveSpeed: 3
   waypointReachedDistance: 0.1
   loop: 1
-  visual: {fileID: 411527673}
+  visual: {fileID: 0}
 --- !u!50 &411527671
 Rigidbody2D:
   serializedVersion: 5
