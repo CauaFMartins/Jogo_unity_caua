@@ -2800,6 +2800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1586607095}
   - component: {fileID: 1586607096}
+  - component: {fileID: 1586607097}
   m_Layer: 0
   m_Name: spr_tree_city_5
   m_TagString: Untagged
@@ -2880,6 +2881,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1586607097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586607094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dead70ce04bf55440a372657d820d2e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  parallaxEffect: -0.2
+  infiniteScrolling: 1
 --- !u!1 &1615196628
 GameObject:
   m_ObjectHideFlags: 0
