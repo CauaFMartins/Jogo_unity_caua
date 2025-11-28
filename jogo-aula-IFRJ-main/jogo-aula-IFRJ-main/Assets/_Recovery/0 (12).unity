@@ -1793,7 +1793,6 @@ GameObject:
   - component: {fileID: 842868304}
   - component: {fileID: 842868306}
   - component: {fileID: 842868305}
-  - component: {fileID: 842868307}
   m_Layer: 0
   m_Name: Personagem
   m_TagString: Player
@@ -1970,20 +1969,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &842868307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 842868301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbd628da36d73b440a50888ce667d771, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  maxHealth: 100
-  currentHealth: 0
 --- !u!1001 &896336656
 PrefabInstance:
   m_ObjectHideFlags: 0
