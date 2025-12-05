@@ -3936,7 +3936,7 @@ PrefabInstance:
       objectReference: {fileID: 604886451}
     - target: {fileID: 8686610401154585913, guid: dad31f175ef3f8741a3441b21e66c683, type: 3}
       propertyPath: knockbackForce
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8686610401154585913, guid: dad31f175ef3f8741a3441b21e66c683, type: 3}
       propertyPath: 'waypoints.Array.data[0]'
