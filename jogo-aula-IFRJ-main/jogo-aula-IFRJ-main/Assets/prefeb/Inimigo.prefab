@@ -124,12 +124,12 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   moveSpeed: 3
-  waypointReachedDistance: 0.1
+  waypointReachedDistance: 0.4
   loop: 1
   visual: {fileID: 7125885398219552599}
   damage: 10
   attackCooldown: 1
-  knockbackForce: 1500
+  knockbackForce: 10
 --- !u!1 &4871232395637949822
 GameObject:
   m_ObjectHideFlags: 0
