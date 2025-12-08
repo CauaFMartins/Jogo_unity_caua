@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3163849777703137912}
   - component: {fileID: 7624215999709467695}
   - component: {fileID: 8686610401154585913}
+  - component: {fileID: 3654898932915189606}
+  - component: {fileID: 316923652528872490}
   m_Layer: 0
   m_Name: Inimigo
   m_TagString: Untagged
@@ -100,7 +102,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -130,6 +132,35 @@ MonoBehaviour:
   damage: 10
   attackCooldown: 1
   knockbackForce: 10
+--- !u!114 &3654898932915189606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3672909932482858918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52b42308af520344290dc810acaed19c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  maxHealth: 60
+  currentHealth: 0
+--- !u!114 &316923652528872490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3672909932482858918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fee8e847d07475341a080e28463fe7ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyCombat
+  damage: 10
+  attackCooldown: 1
+  knockbackForce: 15
 --- !u!1 &4871232395637949822
 GameObject:
   m_ObjectHideFlags: 0
